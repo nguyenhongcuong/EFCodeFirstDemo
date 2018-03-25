@@ -64,7 +64,7 @@ namespace EFCodeFirstStanford.Migrations
                 }
 
             );
-
+            context.SaveChanges();
 
         }
     }
