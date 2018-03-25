@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstTLD", "EFCodeFir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstStanford", "EFCodeFirstStanford\EFCodeFirstStanford.csproj", "{1EC89CF5-C331-49F0-95FE-D18BFAC79A4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirstQLSV", "EFCodeFirstQLSV\EFCodeFirstQLSV.csproj", "{38C995ED-1C08-4F43-B7E5-82365FE41B17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1EC89CF5-C331-49F0-95FE-D18BFAC79A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EC89CF5-C331-49F0-95FE-D18BFAC79A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC89CF5-C331-49F0-95FE-D18BFAC79A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C995ED-1C08-4F43-B7E5-82365FE41B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C995ED-1C08-4F43-B7E5-82365FE41B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C995ED-1C08-4F43-B7E5-82365FE41B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C995ED-1C08-4F43-B7E5-82365FE41B17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

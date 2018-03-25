@@ -3,16 +3,16 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EFCodeFirstQLSV.Models
 {
-    public class LopHoc
+    public class MonHoc
     {
         [Key]
         [StringLength(10)]
-        public string MaLop { get; set; }
+        public string MaMon { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string TenLop { get; set; }
+        public string TenMon { get; set; }
 
-        public virtual ICollection<SinhVien> SinhViens { get; set; }    
+        public virtual ICollection<KetQuaThi> KetQuaThis { get; set; }
     }
 }
