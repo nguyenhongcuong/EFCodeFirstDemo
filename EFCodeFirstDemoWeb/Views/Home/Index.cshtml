@@ -1,0 +1,17 @@
+﻿@using EFCodeFirstDemoWeb.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (ViewBag.Students != null)
+{
+    var students = (List<Student>)ViewBag.Students;
+
+    foreach (var student in students)
+    {
+        <p>@student.FirstMidName @student.LastName</p>
+    }
+}
