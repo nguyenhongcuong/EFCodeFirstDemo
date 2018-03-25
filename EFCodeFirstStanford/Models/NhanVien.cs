@@ -30,5 +30,12 @@ namespace EFCodeFirstStanford.Models
 
         [StringLength(250)]
         public string DiaChi { get; set; }
+
+        [StringLength(10)]
+        public string PhongBanId { get; set; }
+
+        [ForeignKey("PhongBanId")]
+        public virtual PhongBan PhongBan { get; set; }
+
     }
 }

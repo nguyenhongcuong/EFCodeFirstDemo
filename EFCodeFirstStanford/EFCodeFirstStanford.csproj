@@ -139,8 +139,17 @@
     <Compile Include="Migrations\201803251228043_FirstMigrations.Designer.cs">
       <DependentUpon>201803251228043_FirstMigrations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803251258132_SecondMigrations.cs" />
+    <Compile Include="Migrations\201803251258132_SecondMigrations.Designer.cs">
+      <DependentUpon>201803251258132_SecondMigrations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803251303202_ChangeForeignKeyPhongBanIdMigrations.cs" />
+    <Compile Include="Migrations\201803251303202_ChangeForeignKeyPhongBanIdMigrations.Designer.cs">
+      <DependentUpon>201803251303202_ChangeForeignKeyPhongBanIdMigrations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\NhanVien.cs" />
+    <Compile Include="Models\PhongBan.cs" />
     <Compile Include="Models\QuanLyNhanSuDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -164,6 +173,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201803251228043_FirstMigrations.resx">
       <DependentUpon>201803251228043_FirstMigrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803251258132_SecondMigrations.resx">
+      <DependentUpon>201803251258132_SecondMigrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803251303202_ChangeForeignKeyPhongBanIdMigrations.resx">
+      <DependentUpon>201803251303202_ChangeForeignKeyPhongBanIdMigrations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

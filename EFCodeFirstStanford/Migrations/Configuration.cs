@@ -19,6 +19,22 @@ namespace EFCodeFirstStanford.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
 
+            // Thêm dữ liệu cho table PhongBan
+
+            context.PhongBans.AddOrUpdate(
+                p => p.MaPhong,
+                new PhongBan
+                {
+                    MaPhong = "CNTT",
+                    TenPhong = "Công nghệ thông tin"
+                },
+                new PhongBan
+                {
+                    MaPhong = "DT",
+                    TenPhong = "Điện tử"
+                }
+            );
+
             // Thêm dữ liệu mẫu cho table NhanVien
             context.NhanViens.AddOrUpdate(
                 p => p.MaNv,
@@ -48,6 +64,8 @@ namespace EFCodeFirstStanford.Migrations
                 }
 
             );
+
+
         }
     }
 }

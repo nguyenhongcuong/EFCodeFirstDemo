@@ -10,6 +10,7 @@ namespace EFCodeFirstStanford.Models
         }
 
         public DbSet<NhanVien> NhanViens { get; set; }
+        public DbSet<PhongBan> PhongBans { get; set; }
         /* Sử dụng Migrations để create, update, delete database khi dùng Code First
          * Mở Package Manager Console
          * Gõ Enable-Migrations. Đợi .NET tạo Migrations
